@@ -1,0 +1,55 @@
+/* /* html,body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+ul{
+    display: flex;
+    background: gray;
+    margin: 0;
+    padding: 15px 0;
+    color: #fff;
+}
+ul li
+{
+    list-style: none;
+    margin: 0 23px;
+} */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    background: linear-gradient(10deg,rgba(1, 5, 27, 0.747),rgba(31, 1, 1, 0.212)),url("/images/girlbook.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    backface-visibility: visible;
+    behavior: inherit;
+    /* -webkit-backdrop-filter: brightness(#882323); */
+    background-color: #882323;
+    border: 1px solid rgb(100, 12, 12);
+    -webkit-border-image: fill;
+    position: absolute;
+    image-rendering: optimizeQuality;
+    -ms-zoom-animation: initial;
+    
+}
+.main:hover{
+    background: linear-gradient(30deg,rgba(7, 8, 82, 0.562),rgba(2, 17, 59, 0)),url("/images/girlbook.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+} 
+.yello{
+    background-color: yellow;
+}
+.red{
+    background-color: red;
+}
